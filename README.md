@@ -124,6 +124,35 @@ The Airbnb Clone includes the following core features:
 ### 6. Search and Filtering
 - Users can filter by location, price, availability, and amenities.
 - Search results optimized for speed and accuracy.
+## API Security
+
+Security is a core part of this project to ensure that data and services remain protected.  
+The following measures are implemented:
+
+### 1. Authentication
+- All endpoints require valid authentication tokens (JWT or API keys).
+- Tokens must be included in the `Authorization` header:
+  ```http
+  Authorization: Bearer <your-token-here>
+
+## CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) are practices that help automate the software development lifecycle.  
+
+- **Continuous Integration (CI):** Ensures that every code change is automatically built, tested, and validated before merging into the main branch.  
+- **Continuous Deployment (CD):** Automatically deploys validated code to staging or production environments, reducing manual intervention and ensuring faster delivery.
+
+### Why It’s Important
+- **Early Bug Detection:** Code is tested continuously, catching issues before they reach production.  
+- **Faster Delivery:** Automating builds and deployments speeds up the release cycle.  
+- **Consistency:** Ensures deployments are repeatable and reliable across environments.  
+- **Collaboration:** Makes it easier for multiple developers to contribute without breaking the project.  
+
+### Tools Used
+- **GitHub Actions** – Automates workflows like testing, linting, and deployment.  
+- **Docker** – Packages applications into containers for consistent deployment.  
+- **Jenkins / GitLab CI** – Alternatives for CI/CD pipeline automation.  
+- **Kubernetes** – Manages containerized deployments at scale (optional for larger projects).  
 
 ---
 
