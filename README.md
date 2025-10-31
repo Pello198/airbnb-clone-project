@@ -1,5 +1,7 @@
 # Airbnb Clone Project
 UI/UX Design Planning
+Project Roles and Responsibilities
+UI Component Patterns
 ## Project Goals
 The Airbnb Clone Project is designed to simulate the development of a real-world booking platform like Airbnb.  
 Our goals are to:
